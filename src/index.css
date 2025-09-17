@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;  
+  color: #000000;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.bg-stars {
+  background-color: #000;
+  background-image:
+    radial-gradient(circle, #ffe600 1px, transparent 1px),
+    radial-gradient(circle, #ffe600 1px, transparent 1px);
+  background-size: 30px 30px, 60px 60px;
+  background-position: 0 0, 15px 15px;
+}
