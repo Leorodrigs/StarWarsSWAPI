@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
-import { Navbar } from "./navbar";
+import { Navbar } from "./Navbar";
 
 export const CharacterDetail = () => {
     const { id } = useParams();
