@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { Navbar } from "./navbar";
+import { Navbar } from "./Navbar";
 import { GiLightSabers } from "react-icons/gi";
 import { FaEye } from "react-icons/fa";
 import '../../index.css';
